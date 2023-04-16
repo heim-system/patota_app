@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1014018903135",
+    "project_id": "patota-app",
+    "storage_bucket": "patota-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014018903135:android:b6204b3e4a6f94fdbc1fea",
+        "android_client_info": {
+          "package_name": "br.com.heim.patota_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014018903135-h64gag7fj22j3mp5i91smc18gnv4o88a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQe5ut3ohsIeSrKGycc0Ir4jCZ-_TvDxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014018903135-h64gag7fj22j3mp5i91smc18gnv4o88a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

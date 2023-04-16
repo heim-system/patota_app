@@ -1,0 +1,17 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer: 
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+  errors:
+    avoid_unused_constructor_parameters: warning 
+    always_declare_return_types: error 
+
+linter:
+  rules:
+    unnecessary_await_in_return: true 
+    prefer_single_quotes: true
+    prefer_final_locals: true
+    avoid_unused_constructor_parameters: true
+    always_declare_return_types: true
