@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:patota_app/app/modules/home/submodules/home_patota/domain/entities/i_patota.dart';
-import 'package:patota_app/app/modules/home/submodules/home_patota/filter_patota_enum.dart';
-import 'package:patota_app/app/modules/home/submodules/home_patota/home_patota_controller.dart';
+import 'package:patota_app/app/modules/patota/domain/entities/i_patota.dart';
+import 'package:patota_app/app/modules/patota/filter_patota_enum.dart';
+import 'package:patota_app/app/modules/patota/home_patota_controller.dart';
 import 'package:patota_app/core/dependency_injector/doctor.dart';
 
 class CustomChipWiget extends StatefulWidget {

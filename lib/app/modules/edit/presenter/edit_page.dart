@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:patota_app/app/modules/auth/services/auth_service.dart';
-import 'package:patota_app/app/modules/home/submodules/home_patota/domain/entities/i_patota.dart';
+import 'package:patota_app/app/modules/patota/domain/entities/i_patota.dart';
 import 'package:patota_app/app/modules/register/presenter/register_controller.dart';
 import 'package:patota_app/core/dependency_injector/doctor.dart';
 import 'package:patota_app/core/utils/utils_time.dart';

@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:patota_app/app/modules/auth/presenter/auth_widget.dart';
 import 'package:patota_app/app/modules/edit/presenter/edit_page.dart';
 import 'package:patota_app/app/modules/home/presenter/home_page.dart';
-import 'package:patota_app/app/modules/home/submodules/home_patota/domain/entities/i_patota.dart';
 import 'package:patota_app/app/modules/login/presenter/register/login_register_page.dart';
+import 'package:patota_app/app/modules/patota/domain/entities/i_patota.dart';
 import 'package:patota_app/app/modules/register/presenter/register_page.dart';
 import 'package:patota_app/core/routes/routes.dart';
 
