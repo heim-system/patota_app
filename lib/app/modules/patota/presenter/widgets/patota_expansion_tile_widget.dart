@@ -83,6 +83,14 @@ class _PatotaExpansionTileWidgetState extends State<PatotaExpansionTileWidget> {
             ),
           ),
         ),
+        ListTile(
+          trailing: IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(Routes.patotaInvite, arguments: widget.patota);
+            },
+            icon: const Icon(Icons.send),
+          ),
+        )
       ],
     );
   }
