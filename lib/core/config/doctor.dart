@@ -6,6 +6,7 @@ import 'package:patota_app/app/modules/edit/external/datasources/update_patota_d
 import 'package:patota_app/app/modules/edit/infrastructure/datasources/i_update_patota_datasource.dart';
 import 'package:patota_app/app/modules/edit/infrastructure/repositories/update_patota_repository.dart';
 import 'package:patota_app/app/modules/home/presenter/home_controller.dart';
+import 'package:patota_app/app/modules/invite/presenter/invite_controller.dart';
 import 'package:patota_app/app/modules/patota/domain/repositories/i_get_patota_repository.dart';
 import 'package:patota_app/app/modules/patota/domain/repositories/i_remove_patota_repository.dart';
 import 'package:patota_app/app/modules/patota/domain/repositories/i_set_patota_repository.dart';
@@ -32,6 +33,7 @@ Future setup() async {
   doctor.singleton(AuthService.new);
   doctor.singleton(RegisterController.new);
   doctor.singleton(HomeController.new);
+  doctor.singleton(InviteController.new);
 
   doctor.instance<IUpdatePatotaDatasource>(UpdatePatotaDatasource.new);
   doctor.instance<IUpdatePatotaRepository>(() => UpdatePatotaRepository(datasource: doctor()));
